@@ -1,0 +1,37 @@
+package proyect;
+
+public class trabajo {
+
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 10;
+
+		int suma = a + b;
+		int resta = a - b;
+		int mult = a * b;
+		int div = a / b;
+		int mov = a % b;
+
+		a++;
+		b--;
+
+		a += 2;
+		b *= 3;
+
+		boolean igual = a == b;
+		boolean dife = a != b;
+		boolean mayor = a > b;
+		boolean menor = a < b;
+
+		if (igual) {
+			System.out.println("a y b son iguales.");
+		} if (dife && mayor) {
+			System.out.println("a es diferente y mayor que b.");
+		} if  (dife && menor) {
+			System.out.println("a es diferente y menor que b.");
+		} else {
+			System.out.println("No se cumple ninguna condición.");
+		}
+	}
+
+}

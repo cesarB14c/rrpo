@@ -29,6 +29,6 @@ public class sistema_calificacion {
             suma += calificacion;
             double promedio = suma/n; 
         }int excelentes =0, bueno=0, regular =0,insuficiente =0;
-        if 
+        
 	}
 }
